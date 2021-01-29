@@ -1,7 +1,7 @@
 ### Programming Exercies
 
 To participate please 
-* [clone](https://desktop.github.com/) the repo.
+* [Clone](https://desktop.github.com/) the repo.
 * Create a branch named as follows: **problemnumber_firstname_lastname**
 * When you are comfortable create a pull request.
 * The folder structure should be as follows
