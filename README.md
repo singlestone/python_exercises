@@ -9,4 +9,4 @@ To participate please
     * python/test  <- your tests should live here.
 * Use Pylint and mypy on your code.
 
-Problem 1. [Hello World]()
+Problem 1. [Hello World](problem1.md)
