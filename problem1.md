@@ -7,7 +7,7 @@ Our client is asking for the following features:
 1. The user should be able to input a name and a language.
    * The output should be something like:
     * "Hello, Brian!"  or "Hello, Mary!"
-    * "<greeting>, <name>!"
+    * ```"<greeting>, <name>!"```
     * Languages requested support are English, Hebrew, and Spanish. 
     * nonenglish greetings are : 
     * Hebrew: Shalom
