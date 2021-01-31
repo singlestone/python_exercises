@@ -4,7 +4,7 @@ This module will hold all hello related code
 from typing import Optional
 
 
-def hello(name: Optional) -> str:
+def hello(name: Optional, language: Optional) -> str:
     """
     This is the hello function that will greet users.
 
@@ -14,4 +14,12 @@ def hello(name: Optional) -> str:
     """
     if not name:
         name = "World"
-    return f"Hello, {name}!"
+    if not language:
+        greeting = "Hello"
+    if language == "English":
+        greeting = "Hello"
+    elif language == "Spanish":
+        greeting = "Hola"
+    elif language == "Hebrew":
+        greeting = "Shalom"
+    return f"{greeting}, {name}!"
