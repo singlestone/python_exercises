@@ -16,10 +16,10 @@ def hello(name: Optional, language: Optional) -> str:
         name = "World"
     if not language:
         greeting = "Hello"
-    if language == "English":
+    if language == "english":
         greeting = "Hello"
-    elif language == "Spanish":
+    elif language == "spanish":
         greeting = "Hola"
-    elif language == "Hebrew":
+    elif language == "hebrew":
         greeting = "Shalom"
     return f"{greeting}, {name}!"
