@@ -4,7 +4,7 @@ This module will hold all hello related code
 from typing import Optional
 
 
-def hello(name: Optional, language: Optional) -> str:
+def hello(name: Optional[str], language: Optional[str]) -> str:
     """
     This is the hello function that will greet users.
 
