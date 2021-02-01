@@ -1,10 +1,14 @@
 """
- A main starting file 
+ A main starting file
 """
-from hello import hello
+from app.modules.hello import hello
 
 
 def main():
+    """
+    The main entry point for the hello greeting app
+    :return:
+    """
     print('Enter your name:')
     name = input()
     print('Enter your language:')
