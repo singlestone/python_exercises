@@ -30,4 +30,4 @@ jobs:
         mypy python
     - name: Unit Tests 
       run: |
-        pytest python/app/test/
+        pytest python/test/
