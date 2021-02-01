@@ -22,10 +22,10 @@ def test_hello_name(name: str, language: str, want: str):
     assert got == want
 
 
-LANGUAGE_TEST_DATA = [("Brian", "English", "Hello, Brian!"),
+LANGUAGE_TEST_DATA = [("Brian", "english", "Hello, Brian!"),
                       ("Brian", "", "Hello, Brian!"),
-                      ("", "Hebrew", "Shalom, World!"),
-                      ("", "Spanish", "Hola, World!")]
+                      ("", "hebrew", "Shalom, World!"),
+                      ("", "spanish", "Hola, World!")]
 
 
 @pytest.mark.parametrize("name, language, want", LANGUAGE_TEST_DATA)

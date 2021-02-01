@@ -12,10 +12,9 @@ def hello(name: Optional[str], language: Optional[str]) -> str:
 
     :return:
     """
+    greeting = "Hello"
     if not name:
         name = "World"
-    if not language:
-        greeting = "Hello"
     if language == "english":
         greeting = "Hello"
     elif language == "spanish":
