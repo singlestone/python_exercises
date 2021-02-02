@@ -1,9 +1,9 @@
 ### Programming Exercies
 
 To participate please 
-* [Clone](https://desktop.github.com/) the repo.
-* Create a branch named as follows: **problemnumber_firstname_lastname**
-* When you are comfortable create a pull request.
+* [fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+* [Clone the fork](https://desktop.github.com/) the repo.
+* When you are comfortable create a pull request make sure to includ the problem number, first/last name and language.
 * The folder structure should be as follows
     * python/app  <- main folder for your code
     * python/test  <- your tests should live here.
